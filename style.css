@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+    background-color: #111;
+    color: white;
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    border: 8px solid black;
+    margin: 1.5em;
+    transition: all 0.2s ease;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.3);
+}
+
+.btn-container1 {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-container2 {
+    display: flex;
+    justify-content: center;
+}
+
+.red {
+    background-color: red;
+}
+
+.aqua {
+    background-color: aqua;
+}
+
+.lime {
+    background-color: lime;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.flash {
+    background-color: white;
+    box-shadow: 0 0 25px white;
+    opacity: 0.8;
+}
+
+.userflash {
+    background-color: green;
+}
+
+.btn:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
