@@ -1,6 +1,6 @@
 # Simon Says Game 🎮
 
-# Website link
+- Website link
 https://theharsh999.github.io/Simon-Says-Game/
 
 A simple Simon Says memory game built using:
